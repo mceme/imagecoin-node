@@ -24,4 +24,4 @@ module.exports.cli.daemon = require('./lib/cli/daemon');
 module.exports.cli.imagecoin = require('./lib/cli/imagecoin');
 module.exports.cli.ImageCoind = require('./lib/cli/ImageCoind');
 
-module.exports.lib = require('./node_modules/imagecoin-lib');
+module.exports.lib = require('imagecoin-lib');
