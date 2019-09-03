@@ -51,7 +51,7 @@
     "utf-8-validate": "~5.0.2"
   },
   "devDependencies": {
-    "mceme/imagecoin-p2p": "^1.1.9",
+    "@mceme/imagecoin-p2p": "^1.1.9",
     "benchmark": "2.1.4",
     "chai": "^4.2.0",
     "coveralls": "^3.0.4",
