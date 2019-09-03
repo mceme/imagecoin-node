@@ -1,5 +1,5 @@
 {
-  "name": "@mceme/imagecoin-node",
+  "name": "mceme/imagecoin-node",
   "description": "Full node with extended capabilities using Axecore and Axe Core (axed)",
   "author": "AXErunners <info@axerunenrs.com>",
   "version": "5.1.6",
