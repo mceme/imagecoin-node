@@ -1,17 +1,17 @@
-AXEcore Node
+ImageCoin Node
 ============
 
-A Axe full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Axe Core (axed) v1.2.0](https://github.com/axerunners/axe/tree/v0.13.0.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A ImageCoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Axe Core (axed) v1.2.0](https://github.com/axerunners/axe/tree/v0.13.0.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Usages
 
 ### As a standalone server
 
 ```bash
-git clone https://github.com/axerunners/axecore-node
-cd axecore-node
+git clone https://github.com/mceme/imagecoin-node
+cd imagecoin-node
 npm install
-./bin/axecore-node start
+./bin/imagecoin-node start
 ```
 
 When running the start command, it will seek for a .axecore folder with a axecore-node.json conf file.
@@ -19,8 +19,8 @@ If it doesn't exist, it will create it, with basic task to connect to axed.
 
 Some plugins are available :
 
-- Insight-API : `./bin/axecore-node addservice @axerunners/insight-api`
-- Insight-UI : `./bin/axecore-node addservice @axerunners/insight-ui`
+- Insight-API : `./bin/imagecoin-node addservice @mceme/insight-api`
+- Insight-UI : `./bin/imagecoin-node addservice @mceme/insight-ui`
 
 You also might want to add these index to your axe.conf file :
 ```
@@ -32,12 +32,12 @@ You also might want to add these index to your axe.conf file :
 ### As a library
 
 ```bash
-npm install @axerunners/axecore-node
+npm install @mceme/imagecoin-node
 ```
 
 ```javascript
-const axecore = require('@axerunners/axecore-node');
-const config = require('./axecore-node.json');
+const axecore = require('@mceme/imagecoin-node');
+const config = require('./imagecoin-node.json');
 
 let node = axecore.scaffold.start({ path: "", config: config });
 node.on('ready', function() {
@@ -61,11 +61,11 @@ node.on('ready', function() {
 Axecore includes a Command Line Interface (CLI) for managing, configuring and interfacing with your Axecore Node.
 
 ```bash
-axecore-node create -d <axe-data-dir> mynode
+imagecoin-node create -d <axe-data-dir> mynode
 cd mynode
-axecore-node install <service>
-axecore-node install https://github.com/yourname/helloworld
-axecore-node start
+imagecoin-node install <service>
+imagecoin-node install https://github.com/yourname/helloworld
+imagecoin-node start
 ```
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
@@ -98,13 +98,13 @@ There are several add-on services available to extend the functionality of Bitco
 
 Prerequisite : Having a axed node already runing `axed --daemon`.
 
-Axecore-node : `git clone https://github.com/axerunners/axecore-node -b develop`
-Insight-api (optional) : `git clone https://github.com/axerunners/insight-api -b develop`
-Insight-UI (optional) : `git clone https://github.com/axerunners/insight-ui -b develop`
+imagecoin-node : `git clone https://github.com/mceme/imagecoin-node -b develop`
+Insight-api (optional) : `git clone https://github.com/mceme/insight-api -b develop`
+Insight-UI (optional) : `git clone https://github.com/mceme/insight-ui -b develop`
 
 Install them :
 ```
-cd axecore-node && npm install \
+cd imagecoin-node && npm install \
  && cd ../insight-ui && npm install \
  && cd ../insight-api && npm install && cd ..
 ```
