@@ -29,8 +29,8 @@
     "ImageCoind"
   ],
   "dependencies": {
-    "mceme/imagecoin-lib": "^0.17.8",
-    "mceme/imagecoin-rpc": "^1.3.1",
+    "@mceme/imagecoin-lib": "^0.17.8",
+    "@mceme/imagecoin-rpc": "^1.3.1",
     "async": "^2.6.2",
     "body-parser": "^1.19.0",
     "colors": "^1.3.3",
