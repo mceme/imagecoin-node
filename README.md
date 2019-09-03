@@ -50,7 +50,7 @@ node.on('ready', function() {
 
 ## Prerequisites
 
-- Axe Core (axed) (v1.2.0) with support for additional indexing *(see above)*
+- ImageCoin Core (ImageCoind) (v1.2.0) with support for additional indexing *(see above)*
 - Node.js v8+
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
 - ~20GB of disk storage
