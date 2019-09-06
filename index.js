@@ -21,7 +21,7 @@ module.exports.scaffold.defaultConfig = require('./lib/scaffold/default-config')
 module.exports.cli = {};
 module.exports.cli.main = require('./lib/cli/main');
 module.exports.cli.daemon = require('./lib/cli/daemon');
-module.exports.cli.imagecoin = require('./lib/cli/imagecoin');
+module.exports.cli.imagecoin = require('./lib/cli/imagecoincore');
 module.exports.cli.ImageCoind = require('./lib/cli/ImageCoind');
 
 module.exports.lib = require('@mceme/imagecoin-lib');
