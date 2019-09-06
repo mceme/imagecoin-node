@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-var axecore = require('../lib/cli/axecore');
+var axecore = require('../lib/cli/imagecoincore');
 axecore();
