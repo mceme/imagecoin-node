@@ -1,7 +1,7 @@
 ImageCoin Node
 ============
 
-A ImageCoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Axe Core (axed) v1.2.0](https://github.com/axerunners/axe/tree/v0.13.0.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A ImageCoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [ImageCoin Core (ImageCoind) v1.2.0](https://github.com/mceme/imagecoin/) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Usages
 
