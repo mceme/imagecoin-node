@@ -10,7 +10,6 @@ A ImageCoin full node for building applications and services with Node.js. A nod
 ```bash
 git clone https://github.com/mceme/imagecoin-node
 cd imagecoin-node
-sudo npm install
 sudo npm install --unsafe-perm=true --allow-root
 sudo npm install zeromq  --unsafe-perm=true --allow-root
 sudo npm install mceme/imagecoin-lib
