@@ -7,6 +7,8 @@ A ImageCoin full node for building applications and services with Node.js. A nod
 
 ### As a standalone server
 
+Follow these manual : https://github.com/mceme/imagecoin-node/raw/master/IMG-libinstall.docx
+
 ```bash
 git clone https://github.com/mceme/imagecoin-node
 cd imagecoin-node
@@ -20,7 +22,7 @@ sudo npm install mceme/insight-ui
 ./bin/imagecoin-node start
 ```
 
-When running the start command, it will seek for a .axecore folder with a axecore-node.json conf file.
+When running the start command, it will seek for a .imagecoincore folder with a imagecoin-node.json conf file.
 If it doesn't exist, it will create it, with basic task to connect to axed.
 
 Some plugins are available :
