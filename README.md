@@ -23,7 +23,7 @@ sudo npm install mceme/insight-ui
 ```
 
 When running the start command, it will seek for a .imagecoincore folder with a imagecoin-node.json conf file.
-If it doesn't exist, it will create it, with basic task to connect to axed.
+If it doesn't exist, it will create it, with basic task to connect to ImageCoind.
 
 Some plugins are available :
 
