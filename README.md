@@ -44,14 +44,14 @@ npm install mceme/imagecoin-node
 ```
 
 ```javascript
-const axecore = require('@mceme/imagecoin-node');
+const imgcore = require('@mceme/imagecoin-node');
 const config = require('./imagecoin-node.json');
 
-let node = axecore.scaffold.start({ path: "", config: config });
+let node = imgcore.scaffold.start({ path: "", config: config });
 node.on('ready', function() {
-    //Axe core started
-    axed.on('tx', function(txData) {
-        let tx = new axecore.lib.Transaction(txData);
+    //img core started
+    imagecoind.on('tx', function(txData) {
+        let tx = new imagecoincore.lib.Transaction(txData);
     });
 });
 ```
